@@ -1,19 +1,19 @@
 # NSN
 
-API REST de anúncios e pedidos de produtos — projeto pessoal de back-end em Python,
-documentado com o mesmo rigor de Engenharia de Requisitos aplicado em projetos
-acadêmicos.
+Plataforma de anúncios e pedidos para pequenos vendedores — projeto pessoal de
+back-end em Python, documentado com o mesmo rigor de Engenharia de Requisitos
+aplicado em projetos acadêmicos.
 
 ## Contexto do NSN
 
-Pequenos vendedores, como quem vende doces, salgados ou artesanato, costumam divulgar
-seus produtos e receber pedidos por mensagens no WhatsApp. Produtos, preços e pedidos
-ficam espalhados em conversas, sem padrão e sem controle.
+Quem vende doces, salgados ou artesanato costuma divulgar os produtos e receber
+pedidos por mensagens no WhatsApp. Produtos, preços e pedidos ficam espalhados em
+conversas, sem padrão e sem controle: o comprador não sabe o que está disponível, e o
+vendedor perde pedidos no meio das mensagens.
 
-O NSN propõe uma plataforma em que **qualquer pessoa pode anunciar produtos** e
-**qualquer pessoa pode fazer pedidos** dos produtos anunciados. Esta primeira versão
-entrega o módulo de **produtos**: um CRUD completo, com dados persistidos em banco e
-código organizado em camadas.
+O NSN propõe um lugar único onde **qualquer pessoa pode anunciar produtos** e
+**qualquer pessoa pode fazer pedidos**, com pedidos padronizados, aceite pelo
+vendedor e acompanhamento de status pelo comprador.
 
 ## Como navegar
 
@@ -25,12 +25,11 @@ código organizado em camadas.
 
 ## Metodologia e inspiração
 
-Os requisitos originais e a organização em camadas vêm do curso **TDS Backend 2021.1
-(App BLX)**, adaptados para o NSN. A configuração do banco segue a
+A estrutura de documentação de requisitos (cenário atual, stakeholders, MVP,
+RFs/RNFs, casos de uso e priorização) segue o mesmo padrão aplicado no projeto
+[Agenda Clínica](https://nayranery127.github.io/Agenda-clinica/). A configuração da
+camada de dados segue a
 [documentação oficial do FastAPI](https://fastapi.tiangolo.com/tutorial/sql-databases/).
-A estrutura desta documentação segue o mesmo padrão do projeto
-[Agenda Clínica](https://nayranery127.github.io/Agenda-clinica/). As fontes de cada
-parte do código estão registradas em [14. Fontes do Código](/acompanhamento/fontes-do-codigo.md).
 
 ## Repositório e execução
 

@@ -48,8 +48,8 @@ enviando ao banco e convertendo a resposta de volta para objetos Python.
 
 | Tabela | Campos principais | Caso de uso |
 |---|---|---|
-| `usuario` | nome, telefone WhatsApp | [UC06](/requisitos/casos-de-uso.md) |
-| `pedido` | produto, usuário, quantidade, local de entrega, entrega ou retirada, observações, status | [UC07–UC09](/requisitos/casos-de-uso.md) |
+| `usuario` | nome, telefone WhatsApp | [UC01](/requisitos/casos-de-uso.md) |
+| `pedido` | produto, usuário, quantidade, local de entrega, entrega ou retirada, observações, status | [UC05–UC07](/requisitos/casos-de-uso.md) |
 
 ## Histórico de Versão
 

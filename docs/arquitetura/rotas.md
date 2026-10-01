@@ -6,11 +6,11 @@ URL base local: `http://127.0.0.1:8000` · Documentação interativa: `/docs`
 
 | Método | Rota | Ação | Sucesso | Erros | Caso de uso |
 |---|---|---|---|---|---|
-| GET | `/produtos` | lista todos os produtos | 200 | — | [UC02](/requisitos/casos-de-uso.md) |
-| GET | `/produtos/{id}` | busca um produto | 200 | 404 | [UC03](/requisitos/casos-de-uso.md) |
-| POST | `/produtos` | cadastra um produto | 201 | 422 | [UC01](/requisitos/casos-de-uso.md) |
-| PUT | `/produtos/{id}` | atualiza um produto | 200 | 404, 422 | [UC04](/requisitos/casos-de-uso.md) |
-| DELETE | `/produtos/{id}` | remove um produto | 200 | 404 | [UC05](/requisitos/casos-de-uso.md) |
+| GET | `/produtos` | lista todos os produtos | 200 | — | [UC04](/requisitos/casos-de-uso.md) |
+| GET | `/produtos/{id}` | busca um produto | 200 | 404 | [UC04](/requisitos/casos-de-uso.md) |
+| POST | `/produtos` | cadastra um produto | 201 | 422 | [UC02](/requisitos/casos-de-uso.md) |
+| PUT | `/produtos/{id}` | atualiza um produto | 200 | 404, 422 | [UC03](/requisitos/casos-de-uso.md) |
+| DELETE | `/produtos/{id}` | remove um produto | 200 | 404 | [UC03](/requisitos/casos-de-uso.md) |
 
 ## 10.2. Formato do produto
 

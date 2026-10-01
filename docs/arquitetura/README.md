@@ -79,13 +79,13 @@ src/
   banco, e vice-versa.
 - **Padrão repositório**: as rotas nunca acessam o banco diretamente. Para adicionar
   uma nova operação, basta criar o método no repositório e a rota que o chama.
-- **SQLite em vez de PostgreSQL**: os requisitos originais do curso previam
-  PostgreSQL com Docker. O SQLite foi escolhido para o MVP por não exigir instalação.
+- **SQLite no MVP, PostgreSQL no futuro**: o SQLite foi escolhido para o MVP por não
+  exigir instalação.
   Como o acesso é feito pelo SQLAlchemy, a migração exige apenas trocar a URL de
-  conexão ([RNF06](/requisitos/requisitos-nao-funcionais.md)).
-- **Sem camada de serviços, por enquanto**: o fluxograma de referência prevê uma
-  camada de regras de negócio entre a rota e o repositório. Como o CRUD de produtos
-  não tem regras próprias, ela entra junto com o módulo de pedidos (RN04–RN06).
+  conexão ([RNF08](/requisitos/requisitos-nao-funcionais.md)).
+- **Sem camada de serviços, por enquanto**: a arquitetura prevê uma camada de regras
+  de negócio entre a rota e o repositório. Como o catálogo não tem regras próprias,
+  ela entra junto com o fluxo de pedidos ([RN04–RN08](/requisitos/lista-de-itens-de-trabalho.md)).
 - **Sessão por requisição (`get_db`)**: cada requisição abre uma sessão com o banco e
   a fecha ao final, mesmo em caso de erro, evitando conexões presas.
 

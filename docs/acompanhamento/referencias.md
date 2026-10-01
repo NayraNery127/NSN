@@ -18,7 +18,6 @@ Fontes técnicas e documentação oficial consultadas durante o desenvolvimento.
   [learning.postman.com](https://learning.postman.com)
 - Docsify — documentação oficial do motor usado para publicar este site.
   [docsify.js.org](https://docsify.js.org)
-- Curso TDS Backend 2021.1 — App BLX (vídeo-aulas). *(adicionar link do YouTube)*
 
 ## Histórico de Versão
 

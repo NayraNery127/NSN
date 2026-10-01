@@ -8,7 +8,7 @@ foram efetivamente implementados.
 
 ## Documentação interativa com todas as rotas
 
-Swagger gerado automaticamente pelo FastAPI ([RNF04](/requisitos/requisitos-nao-funcionais.md)),
+Swagger gerado automaticamente pelo FastAPI ([RNF06](/requisitos/requisitos-nao-funcionais.md)),
 com as cinco rotas do CRUD de produtos.
 
 ![Swagger](img/swagger-rotas.png)

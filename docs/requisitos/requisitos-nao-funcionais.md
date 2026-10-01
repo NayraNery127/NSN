@@ -2,16 +2,18 @@
 
 | ID | Descrição | Categoria |
 |---|---|---|
-| RNF01 | A aplicação deve ser uma API REST, usando métodos HTTP e status codes padronizados | Interoperabilidade |
-| RNF02 | Os dados devem ser persistidos em banco e sobreviver a reinícios do servidor | Confiabilidade |
-| RNF03 | Todo dado recebido deve ser validado automaticamente antes de chegar ao banco (Pydantic) | Confiabilidade |
-| RNF04 | A API deve gerar documentação interativa automática (Swagger em `/docs`) | Usabilidade |
-| RNF05 | O código deve ser organizado em camadas com responsabilidade única (rota, schema, repositório, model) | Manutenibilidade |
-| RNF06 | A troca de banco (ex.: SQLite para PostgreSQL) deve exigir apenas a alteração da URL de conexão | Portabilidade |
-| RNF07 | O ambiente de desenvolvimento deve ser isolado por projeto (ambiente virtual Python) | Portabilidade |
+| RNF01 | Um pedido deve poder ser feito em até 3 passos (escolher produto, preencher dados, confirmar), para ser mais rápido que uma conversa no WhatsApp | Usabilidade |
+| RNF02 | Produtos e pedidos não podem ser perdidos: todos os dados devem ficar salvos de forma permanente | Confiabilidade |
+| RNF03 | O sistema deve recusar anúncios e pedidos com informações obrigatórias faltando ou inválidas | Confiabilidade |
+| RNF04 | O telefone do comprador só deve ficar visível para o vendedor do pedido, em conformidade com a LGPD | Segurança e Privacidade |
+| RNF05 | O catálogo deve carregar em até 2 segundos em condições normais de rede | Desempenho |
+| RNF06 | O sistema deve poder ser consumido por qualquer interface (site, aplicativo ou ferramenta de teste), por meio de uma API padronizada | Interoperabilidade |
+| RNF07 | O sistema deve estar organizado de forma que novas funcionalidades (usuários, pedidos) possam ser adicionadas sem reescrever as existentes | Manutenibilidade |
+| RNF08 | O banco de dados deve poder ser trocado (ex.: de SQLite para PostgreSQL) sem alterar as regras do sistema | Portabilidade |
 
 ## Histórico de Versão
 
 | Data | Versão | Descrição da Alteração | Autor(a) |
 |---|---|---|---|
 | 2026-10-01 | 1.0 | Levantamento inicial dos requisitos não-funcionais | Nayra |
+| 2026-10-01 | 1.1 | Requisitos reescritos com foco na qualidade do produto | Nayra |

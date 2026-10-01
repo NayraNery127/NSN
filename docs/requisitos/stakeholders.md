@@ -13,7 +13,7 @@
   <rect x="20" y="190" width="140" height="50" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
   <text x="90" y="220" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#166534">Comprador</text>
   <rect x="490" y="20" width="140" height="50" rx="10" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
-  <text x="560" y="50" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#854d0e">Curso (requisitos BLX)</text>
+  <text x="560" y="50" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#854d0e">WhatsApp</text>
   <rect x="490" y="190" width="140" height="50" rx="10" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
   <text x="560" y="220" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#854d0e">Desenvolvedora</text>
   <line x1="160" y1="55" x2="248" y2="115" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow4)"/>
@@ -21,26 +21,26 @@
   <line x1="160" y1="205" x2="248" y2="145" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow4)"/>
   <text x="185" y="200" font-family="sans-serif" font-size="9" fill="#64748b">faz pedidos</text>
   <line x1="490" y1="55" x2="402" y2="115" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow4)"/>
-  <text x="415" y="75" font-family="sans-serif" font-size="9" fill="#64748b">define requisitos</text>
+  <text x="415" y="75" font-family="sans-serif" font-size="9" fill="#64748b">canal de contato</text>
   <line x1="490" y1="205" x2="402" y2="145" stroke="#475569" stroke-width="1.5" marker-end="url(#arrow4)"/>
   <text x="405" y="200" font-family="sans-serif" font-size="9" fill="#64748b">constrói e mantém</text>
 </svg>
 
-**Legenda:** 🟢 verde = usuários diretos do sistema · 🟡 amarelo = origem dos requisitos e manutenção
+**Legenda:** 🟢 verde = usuários diretos do sistema · 🟡 amarelo = canal externo e manutenção
 
 | Stakeholder | Relação com a solução | Interesse principal | Influência |
 |---|---|---|---|
 | Vendedor | Usuário final | Anunciar produtos e organizar seus pedidos recebidos | Alta |
 | Comprador | Usuário final | Encontrar produtos e acompanhar seus pedidos | Alta |
-| Curso TDS Backend (App BLX) | Origem dos requisitos | Servir de base para um projeto real de back-end | Média |
+| WhatsApp | Canal externo de contato | Continuar sendo o meio de conversa entre vendedor e comprador, quando necessário | Baixa |
 | Desenvolvedora (autora) | Responsável técnica | Entregar uma API correta, organizada e documentada | Alta |
 
 ## Observação sobre este mapa
 
 Na plataforma, **a mesma pessoa pode ser vendedora e compradora** ao mesmo tempo: cada
 usuário terá uma lista de pedidos recebidos (minhas vendas) e de pedidos feitos
-(minhas compras). Os interesses descritos foram inferidos a partir dos requisitos do
-curso e do contexto do problema, não de entrevistas reais. Essa é uma limitação
+(minhas compras). Os interesses descritos foram inferidos a partir do contexto do
+problema (vendas por WhatsApp, pedidos sem padrão, falta de acompanhamento), não de entrevistas reais. Essa é uma limitação
 intencional deste documento, coerente com a origem do projeto.
 
 ## Histórico de Versão
