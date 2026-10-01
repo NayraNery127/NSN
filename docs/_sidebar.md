@@ -1,0 +1,6 @@
+- [Início](/)
+- [Arquitetura](arquitetura.md)
+- [Banco de dados](banco.md)
+- [Rotas da API](rotas.md)
+- [Como rodar](como-rodar.md)
+- [Testes no Postman](postman.md)
